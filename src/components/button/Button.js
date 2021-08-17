@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Button({title,onClick,type}) {
 
     let color = (type === 'success') ? 'green' : 'red';
